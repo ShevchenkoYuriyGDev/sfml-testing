@@ -20,10 +20,10 @@ static void MainWindowDrawing()
 		while (mainWindow.pollEvent(mainWindowEvent));   
 		{
 			if (mainWindowEvent.type == sf::Event::Closed) { mainWindow.close(); }
-			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))    { circle.move(0, -0.05); }
-			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))  { circle.move(0, 0.05);  }
-			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))  { circle.move(-0.05, 0); }
-			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) { circle.move(0.05, 0);  }
+			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up))    { circle.move(0, -0.03); }
+			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down))  { circle.move(0, 0.03);  }
+			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left))  { circle.move(-0.03, 0); }
+			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) { circle.move(0.03, 0);  }
 		}
 		mainWindow.clear   ();
 		mainWindow.draw    (circle);
