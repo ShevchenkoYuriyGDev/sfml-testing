@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\mello\source\repos\sfml_testing\sfml_testing\main.cpp(23,79): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\mello\source\repos\sfml_testing\sfml_testing\main.cpp(24,78): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\mello\source\repos\sfml_testing\sfml_testing\main.cpp(25,79): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\mello\source\repos\sfml_testing\sfml_testing\main.cpp(26,78): warning C4305: аргумент: усечение из "double" в "float"
+  sfml_testing.vcxproj -> C:\Users\mello\source\repos\sfml_testing\x64\Debug\sfml_testing.exe
